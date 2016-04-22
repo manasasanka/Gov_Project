@@ -1,0 +1,30 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1",
+    "mysql": "^2.8.0",
+    "node": "^0.0.0",
+    "node.js": "^0.0.0",
+    "pg": "4.5.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manasasanka/Gov_Project.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/manasasanka/Gov_Project/issues"
+  },
+  "homepage": "https://github.com/manasasanka/Gov_Project#readme",
+  "description": ""
+}

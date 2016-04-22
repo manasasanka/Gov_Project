@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Shuffle bootstrap 3 one page template</title>
+    
+    <!-- css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/nivo-lightbox.css" rel="stylesheet" />
+    <link href="css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
+    <link href="css/owl.carousel.css" rel="stylesheet" media="screen" />
+    <link href="css/owl.theme.css" rel="stylesheet" media="screen" />
+    <link href="css/flexslider.css" rel="stylesheet" />
+    <link href="css/animate.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="color/default.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+    
+    <section id="intro" class="home-slide text-light">
+            <!-- Wrapper for slides -->
+                <div class="item active">
+                    <img src="img/americanflag.jpg" alt="First slide">
+                    <!-- Static Header -->
+                    <div class="header-text hidden-xs">
+                        <div class="col-md-12 text-center" id = "wrapper">
+                            <h2>
+                                <h1>RITEVOTE</h1>
+                            </h2>
+                            <div class="">
+                                 <a class="btn btn-blue btn-theme btn-sm btn-min-block" href="#Insert">Insert</a><a class="btn btn-blue btn-theme btn-sm btn-min-block" href="#Update">Update</a>
+                                 <a class="btn btn-blue btn-theme btn-sm btn-min-block" href="#Remove">Remove</a><a class="btn btn-blue btn-theme btn-sm btn-min-block" href="#Search">Search</a>
+                                 <a class="btn btn-blue btn-theme btn-sm btn-min-block" href="#CandidateComparison">Candidate Comparison</a>
+                            </div>
+                            <div>
+                                <a class="btn btn-white btn-theme btn-sm btn-min-block" href="#DataViz">Data Visualization</a>
+                                 <a href="#Quiz" class="btn btn-white btn-themeQuiz btn-sm btn-min-block">Take a Quiz!</a>
+                            </div>
+                            
+                        </div>
+                    </div><!-- /header-text -->
+                </div>
+    </section>
+</body>
+    <!-- /Section: intro -->
+    
+    
+    <!-- Navigation -->
+    <div id="navigation">
+        <nav class="navbar navbar-custom" role="navigation">
+                              <div class="container">
+                                    <div class="row">
+                                          <div class="col-md-2">
+                                                   <div class="site-logo">
+                                                            <a href="index.html" class="brand">RiteVote</a>
+                                                    </div>
+                                          </div>
+                                          
+
+                                          <div class="col-md-10">
+                                          </div>
+                      
+                                    </div>
+                              </div>
+                              <!-- /.container -->
+                        </nav>
+    </div> 
+    <!-- /Navigation -->  
+
+    <!-- Quiz -->
+     <section id="Quiz" class="home-section color-dark bg-white">
+        <div class="container marginbot-50">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+                    <div class="section-heading text-center">
+                    <h2 class="h-bold">Quiz</h2>
+                    <div class="divider-header"></div>
+                    <h3>On a scale of 1-5, select how important the following topics are to you.</h3>
+                    <!--Type radio means that one of the buttions of 'name' will be selected-->
+                    <form name = "quiz_form">
+                       <br/><br/><br/>
+                       Abortion: <br>
+                        <div class="rating_scale">
+                          <label>
+                            <input type="radio" name="abortion" value="1"/><span>1</span>
+                          </label>
+                          <label>
+                            <input type="radio" name="abortion" value="2"/><span>2</span>
+                          </label>
+                          <label>
+                            <input type="radio" name="abortion" value="3"/><span>3</span>
+                          </label>
+                          <label>
+                            <input type="radio" name="abortion" value="4"/><span>4</span>
+                          </label>
+                          <label>
+                            <input type="radio" name="abortion" value="5"/><span>5</span>
+                          </label>
+                        </div> 
+                         <br/><br/><br/>
+                       Gun Control: <br>
+                        <div class="rating_scale">
+                          <label>
+                            <input type="radio" name="gun"  value="1"/><span>1</span>
+                          </label>
+                          <label>
+                            <input type="radio" name="gun"  value="2"/><span>2</span>
+                          </label>
+                          <label>
+                            <input type="radio" name="gun" value="3"/><span>3</span>
+                          </label>
+                          <label>
+                            <input type="radio" name="gun" value="4"/><span>4</span>
+                          </label>
+                          <label>
+                            <input type="radio" name="gun" value="5"/><span>5</span>
+                          </label>
+                        </div>
+                         <br/><br/><br/>
+                       Marijuana: <br>
+                        <div class="rating_scale">
+                          <label>
+                            <input type="radio" name="marijuana" value="1"/><span>1</span>
+                          </label>
+                          <label>
+                            <input type="radio" name="marijuana" value="2"/><span>2</span>
+                          </label>
+                          <label>
+                            <input type="radio" name="marijuana" value="3"/><span>3</span>
+                          </label>
+                          <label>
+                            <input type="radio" name="marijuana" value="4"/><span>4</span>
+                          </label>
+                          <label>
+                            <input type="radio" name="marujuana" value="5"/><span>5</span>
+                          </label>
+                        </div>  
+
+                         <br/><br/><br/>
+                       Affordable Care: <br>
+                        <div class="rating_scale">
+                          <label>
+                            <input type="radio" name="affordable" value="1"/><span>1</span>
+                          </label>
+                          <label>
+                            <input type="radio" name="affordable" value="2"/><span>2</span>
+                          </label>
+                          <label>
+                            <input type="radio" name="affordable" value="3"/><span>3</span>
+                          </label>
+                          <label>
+                            <input type="radio" name="affordable" value="4"/><span>4</span>
+                          </label>
+                          <label>
+                            <input type="radio" name="affordable" value="5"/><span>5</span>
+                          </label>
+                        </div>   
+                         <br/><br/><br/>
+                       Death Penalty: <br>
+                        <div class="rating_scale">
+                          <label>
+                            <input type="radio" name="death" value="1"/><span>1</span>
+                          </label>
+                          <label>
+                            <input type="radio" name="death" value="2"/><span>2</span>
+                          </label>
+                          <label>
+                            <input type="radio" name="death" value="3"/><span>3</span>
+                          </label>
+                          <label>
+                            <input type="radio" name="death" value="4"/><span>4</span>
+                          </label>
+                          <label>
+                            <input type="radio" name="death" value="5"/><span>5</span>
+                          </label>
+                        </div>                                  
+                    <p>
+                        <button type = "button" id = "submit_quiz_form">
+                            Submit
+                        </button>
+                    </p>
+                    </form>
+
+                    <p>
+                        Here you will find a list of further links to browse by topic based on your specified interests. These links are the most relevant buzz about this topic in the current state of affairs. 
+                    </p>
+                    <table id = "quizTable" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th>Topic</th>
+                                <th>Related Links</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+
+
+                     <script type = "text/javaspcript"  src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+                    <script type="application/javascript">
+                        
+                        document.getElementById("submit_quiz_form").addEventListener("click", submit)
+                        function submit()
+                        {
+                            var form = document.forms['quiz_form']
+                            var inputs=form.getElementsByTagName('input')
+                            var data = {}
+                            for(var i = 0; i<inputs.length; i++)
+                            {
+                                var input = inputs[i]
+                                //see which buttions are checked
+                                if(input.checked)
+                                {
+                                  console.log(input.checked)
+                                  data[input.name] = input.value
+                                  console.log(input.name, input.value)
+                                }
+                            }
+                            var request =  $.ajax({
+                                type:'POST',
+                                data: JSON.stringify(data),
+                                url: '/quiz',
+                                dataType: 'json',
+                                contentType: 'application/json; charset=UTF-8',
+                                success:success(data)
+                             }) 
+
+                            request.done(function(dat){
+
+                              console.log(dat[0].abort)
+
+                            $("#quizTable tbody").remove();
+                            //var str = '';
+                            var toprow = $("<tr />")
+                            toprow.append($("<td>" + 'Abortion'+ "</td>" + "<td>" + '' + "</td>"));
+                            $("#quizTable").append(toprow);
+
+                            for (var i =1; i<data['abortion']*2; i++)
+                            {  
+
+                                var row = $("<tr />")
+                                $("#quizTable").append(row);
+                                row.append($("<td>" + ''+ "</td>"+ "<td>" + dat[i].abort + "</td>"));
+                            }
+                        
+                            toprow = $("<tr />")
+                            toprow.append($("<td>" + 'Gun Control'+ "</td>" + "<td>" + '' + "</td>"));
+                            $("#quizTable").append(toprow);
+
+                            for(var j=0; j<data['gun']*2;j++)
+                            { var row = $("<tr />")
+                              $("#quizTable").append(row);
+                                    row.append($("<td>" + ''+ "</td>"+ "<td>" + dat[j].gunc + "</td>"));
+                            }
+
+                            toprow = $("<tr />")
+                            toprow.append($("<td>" + 'Marijuana'+ "</td>" + "<td>" + '' + "</td>"));
+                            $("#quizTable").append(toprow);
+                            for(var k=0; k<data['marijuana']*2; k++)
+                            {
+                               var row = $("<tr />")
+                              $("#quizTable").append(row);
+                                    row.append($("<td>" + ''+ "</td>"+ "<td>" + dat[k].weed+ "</td>"));
+                            
+                            }
+
+                            toprow = $("<tr />")
+                            toprow.append($("<td>" + 'Affordable Care'+ "</td>" + "<td>" + '' + "</td>"));
+                            $("#quizTable").append(toprow);
+                            for(var k=0; k<data['affordable']*2; k++)
+                            {
+                               var row = $("<tr />")
+                              $("#quizTable").append(row);
+                                    row.append($("<td>" + ''+ "</td>"+ "<td>" + dat[k].aff+ "</td>"));
+                            
+                            }
+                     
+                            toprow = $("<tr />")
+                            toprow.append($("<td>" + 'Death Penalty'+ "</td>" + "<td>" + '' + "</td>"));
+                            $("#quizTable").append(toprow);
+                            for(var k=0; k<data['death']*2; k++)
+                            {
+                               var row = $("<tr />")
+                              $("#quizTable").append(row);
+                                    row.append($("<td>" + ''+ "</td>"+ "<td>" + dat[k].deathp+ "</td>"));
+                            }
+                        });
+                        }
+                        function success(data) {
+                            console.log('Success: ', data)
+                        }
+                     </script>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Quiz -->
+
+
+
+
+
+    <!-- Section: Insert -->
+    <section id="Insert" class="home-section color-dark bg-white">
+        <div class="container marginbot-50">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+                    <div class="section-heading text-center">
+                    <h2 class="h-bold">Insert</h2>
+                    <div class="divider-header"></div>
+                    <h3>Enter Political Representative Information</h3>
+                    <form name = "insert_form">
+                        Name:<br>
+                        <input type="text" name="polname"><br>
+                        State:<br>
+                        <input type="text" name="state"><br>
+                        Term begin:<br>
+                        <input type="text" name="termBegin"><br>
+                        Term end:<br>
+                        <input type="text" name="termEnd"><br>
+                        House name:<br>
+                        <input type="text" name="houseName"><br>
+                        Party affiliation:<br>
+                        <input type="text" name="partyAffiliation"><br>
+                                                       
+                    <p>
+                        <button type = "button" id = "submit_insert_form">
+                            Submit
+                        </button>
+                    </p>
+                    </form>
+
+                     <script type = "text/javaspcript"  src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+                    <script type="application/javascript">
+              
+                         document.getElementById("submit_insert_form").addEventListener("click", submit)
+                        function submit()
+                        {
+                            var form = document.forms['insert_form']
+                            var inputs=form.getElementsByTagName('input')
+                            var data = {}
+                            for(var i = 0; i<inputs.length; i++)
+                            {
+                                var input = inputs[i]
+                                data[input.name] = input.value
+                            }
+                             $.ajax({
+                                type:'POST',
+                                data: JSON.stringify(data),
+                                url: '/insertPoliticalRep',
+                                dataType: 'json',
+                                contentType: 'application/json; charset=UTF-8',
+                                success:success(data)
+                             }) 
+                        }
+                        function success(data) {
+                            console.log('Success: ', data)
+                        }
+              
+                     </script>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- /Section: insert -->
+
+<!-- Section: update -->
+    <section id="Update" class="home-section color-dark bg-white">
+        <div class="container marginbot-50">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+                    <div class="section-heading text-center">
+                    <h2 class="h-bold">Update</h2>
+                    <div class="divider-header"></div>
+                    <h3>Enter Political Representative Information</h3>
+                    <form name = "update_form">
+                        Name:<br>
+                        <input type="text" name="polname"><br>
+                        State:<br>
+                        <input type="text" name="state"><br>
+                        Term begin:<br>
+                        <input type="text" name="termBegin"><br>
+                        Term end:<br>
+                        <input type="text" name="termEnd"><br>
+                        House name:<br>
+                        <input type="text" name="houseName"><br>
+                        Party affiliation:<br>
+                        <input type="text" name="partyAffiliation"><br>
+                    <p>
+                        <button type = "button" id = "submit_update_form">
+                            Submit
+                        </button>
+                    </p>
+                    </form>
+
+                     <script type = "text/javaspcript"  src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+                    <script type="application/javascript">
+              
+                         document.getElementById("submit_update_form").addEventListener("click", submit)
+                        function submit()
+                        {
+                            var form = document.forms['update_form']
+                            var inputs=form.getElementsByTagName('input')
+                            var data = {}
+                            for(var i = 0; i<inputs.length; i++)
+                            {
+                                var input = inputs[i]
+                                data[input.name] = input.value
+                            }
+                             $.ajax({
+                                type:'POST',
+                                data: JSON.stringify(data),
+                                url: '/updatePoliticalRep',
+                                dataType: 'json',
+                                contentType: 'application/json; charset=UTF-8',
+                                success:success(data)
+                             }) 
+                        }
+                        function success(data) {
+                            console.log('Success: ', data)
+                        }
+                    </script>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+<!-- Section: remove -->
+    <section id="Remove" class="home-section color-dark bg-white">
+        <div class="container marginbot-50">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+                    <div class="section-heading text-center">
+                    <h2 class="h-bold">Remove</h2>
+                    <div class="divider-header"></div>
+                    <h3>Enter Political Representative Information</h3>
+                    <form name = "remove_form">
+                        Name:<br>
+                        <input type="text" name="polname"><br>
+                        State:<br>
+                        <input type="text" name="state"><br>                              
+                    <p>
+                        <button type = "button" id = "submit_remove_form">
+                            Submit
+                        </button>
+                    </p>
+                    </form>
+
+                     <script type = "text/javaspcript"  src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+                    <script type="application/javascript">
+                        document.getElementById("submit_remove_form").addEventListener("click", submit)
+                        function submit()
+                        {
+                            var form = document.forms['remove_form']
+                            var inputs=form.getElementsByTagName('input')
+                            var data = {}
+                            for(var i = 0; i<inputs.length; i++)
+                            {
+                                var input = inputs[i]
+                                data[input.name] = input.value
+                            }
+                             $.ajax({
+                                type:'POST',
+                                data: JSON.stringify(data),
+                                url: '/deletePoliticalRep',
+                                dataType: 'json',
+                                contentType: 'application/json; charset=UTF-8',
+                                success:success(data)
+                             }) 
+                        }
+                        function success(data) {
+                            console.log('Success: ', data)
+                        }
+                    </script>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+<!-- Section: search -->
+    <section id="Search" class="home-section color-dark bg-white">
+        <div class="container marginbot-50">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+                    <div class="section-heading text-center">
+                    <h2 class="h-bold">Search</h2>
+                        <div class="">
+                            <a class="btn btn-blue btn-theme btn-sm btn-min-block" href="#BillsByLegislator">Search Bills by Legislator</a>
+                            <a class="btn btn-blue btn-theme btn-sm btn-min-block" href="#CommitteesByState">Search Committees by State</a>
+                            <a class="btn btn-blue btn-theme btn-sm btn-min-block" href="#BillsByState">Search Bills by State</a>
+                            <a class="btn btn-blue btn-theme btn-sm btn-min-block" href="#LegislatorByState">Search Political Representative by State</a>
+                        </div>
+                       
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+ <section id="BillsByLegislator" class="home-section color-dark bg-white">
+        <div class="container marginbot-50">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+                    <div class="section-heading text-center">
+                    <h2 class="h-bold">Search Bills By Legislator</h2>
+                     <div class="divider-header"></div>
+                    <h3>Enter a Legislator</h3>
+                    <form name = "Bills_By_Legislator_search_form">
+
+                        Political Representative Name:<br>
+                        <input type="text" name="polname"><br>
+                                                       
+                    <p>
+                        <button type = "button" id = "bill_legis_submit_search_form">
+                            Submit
+                        </button>
+                    </p>
+                    </form>
+
+                    <table id = "BillsByLegislatorsearchTable" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th>Title</th>
+                                <th>Link</th>
+                                <th>Topic</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+
+                     <script type = "text/javaspcript"  src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+                    <script type="application/javascript">
+                        document.getElementById("bill_legis_submit_search_form").addEventListener("click", submit)
+                        function submit()
+                        {
+                            $("BillsByLegislatorsearchTable tb").remove();
+                            var form = document.forms['Bills_By_Legislator_search_form']
+                            var inputs=form.getElementsByTagName('input')
+                            var data = {}
+                            for(var i = 0; i<inputs.length; i++)
+                            {
+                                var input = inputs[i]
+                                data[input.name] = input.value
+                            }
+                            var request= $.ajax({
+                                type:'POST',
+                                data: JSON.stringify(data),
+                                url: '/search/billByLegislator',
+                                dataType: 'json',
+                                contentType: 'application/json; charset=UTF-8',
+                                success:success(data)
+                             });
+                            
+                            request.done(function(dat){
+                                $("#BillsByLegislatorTable tbody").remove();
+                                for (var i =0; i<dat.rows.length; i++)
+                                {
+                                    //var object = JSON.parse(dat[i]);
+                                    var row = $("<tr />")
+                                    $("#BillsByLegislatorsearchTable").append(row);
+                                    //row.append($("<td>" + dat[i] + "</td>"));
+                                    row.append($("<td>" + dat.rows[i].title + "</td>"+ "<td>" + dat.rows[i].link + "</td>"+"<td>" + dat.rows[i].topic + "</td>"));
+                                }
+                            });
+                        }
+                        function success(data) {
+                            console.log('Success Search: ', data)
+                        }
+                    </script>
+                              
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+</section>
+
+ <section id="CommitteesByState" class="home-section color-dark bg-white">
+        <div class="container marginbot-50">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+                    <div class="section-heading text-center">
+                    <h2 class="h-bold">Search Committees By State</h2>
+                     <div class="divider-header"></div>
+                    <h3>Enter a State to find all committees in which it is represented</h3>
+                    <form name = "Committees_By_State_search_form">
+
+                        State:<br>
+                        <input type="text" name="state"><br>
+                                                       
+                    <p>
+                        <button type = "button" id = "comm_submit_search_form">
+                            Submit
+                        </button>
+                    </p>
+                    </form>
+
+                    <table id = "CommitteesByStateTable" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th>Committee Name</th>
+                                <th>House Name</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+
+                     <script type = "text/javaspcript"  src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+                    <script type="application/javascript">
+                        document.getElementById("comm_submit_search_form").addEventListener("click", submit)
+                        function submit()
+                        {
+                            var form = document.forms['Committees_By_State_search_form']
+                            var inputs=form.getElementsByTagName('input')
+                            var data = {}
+                            for(var i = 0; i<inputs.length; i++)
+                            {
+                                var input = inputs[i]
+                                data[input.name] = input.value
+                            }
+                            var request= $.ajax({
+                                type:'POST', 
+                                data: JSON.stringify(data),
+                                url: '/search/CommitteeByState',
+                                dataType: 'json',
+                                contentType: 'application/json; charset=UTF-8',
+                                success:success(data)
+                             });
+                            
+                            request.done(function(dat){
+                               // console.log("ITS HERE WOOT:" +dat.rows[0].housename)//.rows[0])
+                                //$("#CommitteesByLegislatorTable tbody").remove();
+                                for (var i =0; i<dat.rows.length; i++)
+                                {
+                                    //var object = JSON.parse(dat[i]);
+                                    var row = $("<tr />")
+                                    $("#CommitteesByStateTable").append(row);
+                                    //row.append($("<td>" + dat[i] + "</td>"));
+                                    row.append($("<td>" + dat.rows[i].committeename + "</td>"+ "<td>" + dat.rows[i].housename + "</td>"));
+                                }
+                            });
+                        }
+                        function success(data) {
+                            console.log('Success Search: ', data)
+                        }
+                    </script>
+                              
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+</section>
+
+ <section id="BillsByState" class="home-section color-dark bg-white">
+        <div class="container marginbot-50">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+                    <div class="section-heading text-center">
+                    <h2 class="h-bold">Search Bills By State</h2>
+                     <div class="divider-header"></div>
+                    <h3>Enter a State</h3>
+                    <form name = "Bills_By_State_search_form">
+
+                        State:<br>
+                        <input type="text" name="state"><br>
+                                                       
+                    <p>
+                        <button type = "button" id = "bills_submit_search_form">
+                            Submit
+                        </button>
+                    </p>
+                    </form>
+
+                    <table id = "BillsByStateTable" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th>Title</th>
+                                <th>Link</th>
+                                <th>Topic</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+
+                     <script type = "text/javaspcript"  src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+                    <script type="application/javascript">
+                        document.getElementById("bills_submit_search_form").addEventListener("click", submit)
+                        function submit()
+                        {
+                            var form = document.forms['Bills_By_State_search_form']
+                            var inputs=form.getElementsByTagName('input')
+                            var data = {}
+                            for(var i = 0; i<inputs.length; i++)
+                            {
+                                var input = inputs[i]
+                                data[input.name] = input.value
+                            }
+                            var request= $.ajax({
+                                type:'POST',
+                                data: JSON.stringify(data),
+                                url: '/search/billByState',
+                                dataType: 'json',
+                                contentType: 'application/json; charset=UTF-8',
+                                success:success(data)
+                             });
+                            
+                            request.done(function(dat){
+                                $("#BillsByStateTable tbody").remove();
+                                for (var i =0; i<dat.rows.length; i++)
+                                {
+                                    //var object = JSON.parse(dat[i]);
+                                    var row = $("<tr />")
+                                    $("#BillsByStateTable").append(row);
+                                    //row.append($("<td>" + dat[i] + "</td>"));
+                                    row.append($("<td>" + dat.rows[i].title + "</td>"+ "<td>" + dat.rows[i].link + "</td>" + "<td>" + dat.rows[i].topic + "</td>"));
+                                }
+                            });
+                        }
+                        function success(data) {
+                            console.log('Success Search: ', data)
+                        }
+                    </script>
+                              
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+</section>
+
+ <section id="LegislatorByState" class="home-section color-dark bg-white">
+        <div class="container marginbot-50">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+                    <div class="section-heading text-center">
+                    <h2 class="h-bold">Search Legislator By State</h2>
+                     <div class="divider-header"></div>
+                    <h3>Enter State</h3>
+                    <form name = "Legislator_By_State_search_form">
+
+                        State:<br>
+                        <input type="text" name="state"><br>
+                                                       
+                    <p>
+                        <button type = "button" id = "legis_submit_search_form">
+                            Submit
+                        </button>
+                    </p>
+                    </form>
+
+                    <table id = "LegislatorByStateTable" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>State</th>
+                                <th>Term Begin Date</th>
+                                <th>Term End Date</th>
+                                <th>Party Affiliation</th>
+                                <th>House Name</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+
+                     <script type = "text/javaspcript"  src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+                    <script type="application/javascript">
+                        document.getElementById("legis_submit_search_form").addEventListener("click", submit)
+                        function submit()
+                        {
+                            var form = document.forms['Legislator_By_State_search_form']
+                            var inputs=form.getElementsByTagName('input')
+                            var data = {}
+                            for(var i = 0; i<inputs.length; i++)
+                            {
+                                var input = inputs[i]
+                                data[input.name] = input.value
+                            }
+                            var request= $.ajax({
+                                type:'POST',
+                                data: JSON.stringify(data),
+                                url: '/searchPoliticalRepbyState',
+                                dataType: 'json',
+                                contentType: 'application/json; charset=UTF-8',
+                                success:success(data)
+                             });
+                            
+                            request.done(function(dat){
+                                $("#LegislatorByStateTable tbody").remove();
+                                for (var i =0; i<dat.rows.length; i++)
+                                {
+                                    //var object = JSON.parse(dat[i]);
+                                    var row = $("<tr />")
+                                    $("#LegislatorByStateTable").append(row);
+                                    //row.append($("<td>" + dat[i] + "</td>"));
+                                    row.append($("<td>" + dat.rows[i].name + "</td>"+ "<td>" + dat.rows[i].state + "</td>"+ "<td>" + dat.rows[i].termbegin + "</td>"+ "<td>" + dat.rows[i].termend + "</td>"+ "<td>" + dat.rows[i].partyaffiliation + "</td>"+ "<td>" + dat.rows[i].housename+ "</td>"));
+                                }
+                            });
+                        }
+                        function success(data) {
+                            console.log('Success Search: ', data)
+                        }
+                    </script>
+                              
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+</section>
+
+
+
+<section id="CandidateComparison" class="home-section color-dark bg-white">
+        <div class="container marginbot-50">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+                    <div class="section-heading text-center">
+                    <h2 class="h-bold">Candidate Similarity Analysis</h2>
+                    <div class="divider-header"></div>
+                    <h3>Enter two Political representative names.</h3>
+                    <p> This chart displays the degree of similarity between candidates' interests </p>
+                    <form name = "candidate_form">
+                        Candidate 1:<br>
+                        <input type="text" name="polname1"><br>
+                        Candidate 2:<br>
+                        <input type="text" name="polname2"><br>                      
+                    <p>
+                        <button type = "button" id = "submit_candidate_form">
+                            Submit
+                        </button>
+                    </p>
+                    </form>
+
+                    <canvas id="myChart" width="400px" height="400px" style = "width: 400px; height: 400px;"></canvas>
+
+                    <script type = "text/javaspcript"  src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+                    <script src="Chart.js/dist/Chart.bundle.js"></script>
+                    <script type="application/javascript">
+                            var similarityindex = 0
+                           
+                            function drawgraph () {
+                                var config = { type: 'doughnut',
+                                    data: {
+                                    datasets: [{
+                                        data: [
+                                            similarityindex, (1-similarityindex)
+                                        ],
+                                        backgroundColor: [
+                                            "red","blue"
+                                        ],
+                                    }],
+                                    labels: [
+                                        "Similarity",
+                                        "Difference"
+                                    ]},
+                                    options: {
+                                        animateScale: true,
+                                        title: {
+                                            text: 'Candidate Similarity'
+                                        }
+                                    }
+                                };
+                                //window.onload = function () {
+                                    var ctx = document.getElementById("myChart").getContext("2d");
+                                    window.myDonut = new Chart(ctx, config); 
+                               // };
+                            }
+
+                        document.getElementById("submit_candidate_form").addEventListener("click", submit)
+                        function submit()
+                        {
+                            var form = document.forms['candidate_form']
+                            var inputs=form.getElementsByTagName('input')
+                            var data = {}
+                            for(var i = 0; i<inputs.length; i++)
+                            {
+                                var input = inputs[i]
+                                data[input.name] = input.value
+                            }
+                            var request = $.ajax({
+                                type:'POST',
+                                data: JSON.stringify(data),
+                                url: '/candidateComparison',
+                                dataType: 'json',
+                                contentType: 'application/json; charset=UTF-8',
+                                success:success(data)
+                             }) 
+                            //receives the statistics for both candidates in terms of number of bills of each topic. numabort1, numabort2 contain number of bills sponsored by each candidate.
+                            request.done(function(dat){
+                                //console.log(dat)
+                                similarityindex=0
+                                if ((dat.numabort1 + dat.numabort2) >0) {
+                                    similarityindex += .2 * (dat.numabort1/(dat.numabort1 + dat.numabort2))
+                                }
+                                if ((dat.numaffcare1 + dat.numaffcare2) >0) {
+                                    similarityindex += .2 * (dat.numaffcare1/(dat.numaffcare1 + dat.numaffcare2))
+                                }
+                                if ((dat.numdeath1 + dat.numdeath2) >0) {
+                                    similarityindex += .2 * (dat.numdeath1/(dat.numdeath1 + dat.numdeath2))
+                                }
+                                if ((dat.numgun1 + dat.numgun2) >0) {
+                                    similarityindex += .2 * (dat.numgun1/(dat.numgun1 + dat.numgun2))
+                                }
+                                if ((dat.nummarijuana1 + dat.nummarijuana2) >0) {
+                                    similarityindex += .2 * (dat.nummarijuana1/(dat.nummarijuana1 + dat.nummarijuana2))
+                                }
+                                console.log("similarity of cand 1 is : " + similarityindex);      
+                                drawgraph()                         
+                            });
+                        }
+                        function success(data) {
+                            console.log('Successful Object: ', data)
+                        }
+                    </script>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+<section id="DataViz" class="home-section color-dark bg-white">
+        <div class="container marginbot-50">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+                    <div class="section-heading text-center">
+                    <h2 class="h-bold">Statistical Analysis</h2>
+                    <div class="divider-header"></div>
+                    <h3>Bills by Topic</h3>
+                    <p> This chart displays the number of bills from the past four years. </p>
+                
+                    <canvas id="EnactedBillsChart" class = "datacanvas" width="400px" height="400px" style = "width: 400px; height: 400px;"></canvas>
+
+                    <canvas id="PoliticianChart" class = "datacanvas" width="400px" height="400px" style = "width: 400px; height: 400px;"></canvas>
+
+                    <script type = "text/javaspcript"  src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+                    <script src="Chart.js/dist/Chart.bundle.js"></script>
+                    <script type="application/javascript">
+                            var numaff=0
+                            var numabort=0
+                            var numdeath =0
+                            var nummarijuana=0
+                            var numgun=0
+
+                            var totalaff=0
+                            var totalabort=0
+                            var totaldeath =0
+                            var totalmarijuana=0
+                            var totalgun=0    
+
+                            var numindep =0
+                            var numrepub =0
+                            var numdemo=0
+
+                            function drawgraphviz() {
+                                var barChartData = {
+                                labels: ["Abortion", "Affordable Care", "Death Penalty", "Marijuana", "Gun Control"],
+                                datasets: [{
+                                    label: 'Bills Passed',
+                                    data: [numabort, numaff, numdeath, nummarijuana,numgun],
+                                    backgroundColor: ["#69000D","#EC97A2","#F7464A","#F7464A","#F7464A"]
+                                },
+                                {
+                                    label: 'Total Bills on Floor',
+                                    data: [totalabort, totalaff, totaldeath, totalmarijuana, totalgun],
+                                    backgroundColor: ["#00277F","#3874FF","#004EFF", "#6494FF", "#003ECC"]
+
+                                }]
+                                }  
+                                    var ctx = document.getElementById("EnactedBillsChart").getContext("2d");
+                                    window.myBar = new Chart(ctx, {
+                                        type: 'bar',
+                                        data: barChartData,
+                                        options: {
+                                            title: {
+                                                display: true,
+                                                text: 'Number of Bills Passed by Topic'
+                                            }
+                                        }
+                                    }); 
+
+                                var pieChartData = {
+                                    labels: ["Democrat", "Republican", "Independent"],
+                                    datasets: [{
+                                        label: 'Party Affiliation',
+                                        data: [numdemo, numrepub, numindep],
+                                        backgroundColor: ["#00B581","#00694B","#00E8A6"]
+                                    }]
+                                }  
+                                    var ctx = document.getElementById("PoliticianChart").getContext("2d");
+                                    window.myPie = new Chart(ctx, {
+                                        type: 'pie',
+                                        data: pieChartData,
+                                        options: {
+                                            title: {
+                                                display: true,
+                                                text: 'Politicans by Party Affiliation'
+                                            }
+                                        }
+                                    }); 
+                            }
+                        display()
+                        function display()
+                        {
+                            
+                            var data = {}
+                            var request = $.ajax({
+                                type:'POST',
+                                data: JSON.stringify(data),
+                                url: '/dataviz',
+                                dataType: 'json',
+                                contentType: 'application/json; charset=UTF-8',
+                                success:success(data)
+                             }) 
+                            //receives the statistics for both candidates in terms of number of bills of each topic. numabort1, numabort2 contain number of bills sponsored by each candidate.
+                            request.done(function(dat){
+                                console.log(dat)
+                                numabort = dat.numabort                                
+                                numgun = dat.numgun
+                                numaff = dat.numaff
+                                nummarijuana=dat.nummarijuana
+                                numdeath = dat.numdeath
+                                totaldeath = dat.totaldeath
+                                totalgun = dat.totalgun
+                                totalmarijuana= dat.totalmarijuana
+                                totalabort = dat.totalabort
+                                totalaff = dat.totalaff
+
+                                numrepub = dat.numrepub
+                                numindep = dat.numindep
+                                numdemo = dat.numdemo
+                                drawgraphviz()                         
+                            });
+                        }
+                        function success(data) {
+                            console.log('Successful DATAVIZ Object: ', data)
+                        }
+                    </script>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    
+                    <div class="text-center">
+                        <a href="#intro" class="totop"><i class="fa fa-angle-up fa-3x"></i></a>
+
+                        <p>Valera, Inc. 795 Folsom Ave, Suite 600 San Francisco, CA 94107<br />
+                        &copy;Copyright 2014 - Shuffle. Designed by <a href="https://bootstraptaste.com">Bootstraptaste</a></p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </footer>
+
+    <!-- Core JavaScript Files -->
+    <script src="js/jquery.min.js"></script>     
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/jquery.easing.min.js"></script> 
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="js/jquery.appear.js"></script>
+    <script src="js/stellar.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/nivo-lightbox.min.js"></script>
+
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
